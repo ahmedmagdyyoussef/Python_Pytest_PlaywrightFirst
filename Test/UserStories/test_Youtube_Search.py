@@ -6,7 +6,6 @@ from Src.PageObject.Pages.SearchResultPage import SearchResult
 
 @pytest.mark.usefixtures("page")
 def test_Youtube(page):
-
    home = Home(page)
    SearchResultObj = SearchResult(page)
    home.ClickonSearchbox()
